@@ -21,7 +21,7 @@
       <?php
       $filename = 'productos.csv';
       if (($handle = fopen($filename, 'r')) !== FALSE) {
-        while (($data = fgetcsv($handle, 1000, ';')) !== FALSE) {
+        while (($data = fgetcsv($handle, null, ';')) !== FALSE) {
           echo '<tr>';
           foreach ($data as $value) {
             echo '<td>' . $value . '</td>';
