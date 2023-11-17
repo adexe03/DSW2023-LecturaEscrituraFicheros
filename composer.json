@@ -1,0 +1,15 @@
+{
+    "name": "daw2/dsw2023-lectura-escritura-ficheros",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Daw2\\Dsw2023LecturaEscrituraFicheros\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adexe"
+        }
+    ],
+    "require": {}
+}
